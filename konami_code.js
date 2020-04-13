@@ -12,9 +12,9 @@ const codes = [
 ];
 
 function init() {
-
+  var index = 0
      document.body.addEventListener("keydown", (event) => {
-      var index = 0
+
       const key = event.key
       var num = codes.length
       console.log('event', key);
