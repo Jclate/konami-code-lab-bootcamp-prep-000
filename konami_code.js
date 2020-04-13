@@ -22,7 +22,7 @@ function init() {
       if (key === codes[index]) {
 
         if (index === num - 1) {
-        alert('Congratulations!')
+        alert('Hurray!')
 
           index = 0;
 
