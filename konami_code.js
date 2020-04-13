@@ -13,9 +13,7 @@ const codes = [
 
 function init() {
 
-
-     var input = document.getElementsByTagName("body")
-     input.addEventListener("keydown", (event) => {
+     document.body.addEventListener("keydown", (event) => {
       var index = 0
       const key = event.key
       var num = codes.length
